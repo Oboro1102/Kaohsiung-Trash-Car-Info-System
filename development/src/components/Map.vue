@@ -40,7 +40,8 @@ export default defineComponent({
     icon() {
       return L.divIcon({
         className: "divIcon",
-        html: "<div class='icon'><i class='fas fa-truck-moving'></i></div>",
+        html:
+          "<div class='icon'><span class='material-icons'>local_shipping</span></div>",
         iconSize: [30, 42],
         iconAnchor: [15, 42],
         tooltipAnchor: [10, -20],
