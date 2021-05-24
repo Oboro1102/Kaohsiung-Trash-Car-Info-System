@@ -66,8 +66,11 @@ body {
 
 .icon {
     color: $color-green;
-    font-size: $font-size-black;
     text-shadow: -2px 0 $color-white, 0 2px $color-white, 2px 0 $color-white, 0 -2px $color-white;
+
+    .material-icons {
+        font-size: 36px;
+    }
 }
 
 .leaflet-tooltip {
